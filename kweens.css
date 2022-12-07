@@ -1,65 +1,154 @@
 #jia{
 position: absolute;
 width: 35vh;
+top: 12vh;
+left: 11vh;
+border-radius: 5px;
+}
+#jiadiv::before{
+    width: 18%;
+    height: 37%;
+    content:"";
+    top: 11vh;
+    left: 9.6vh;
+    position: fixed;
+    border-radius: 5px;
+    background: conic-gradient(
+        rgb(246, 26, 111),
+        rgb(255, 82, 13),
+        rgb(253, 187, 6),
+        rgb(53, 235, 36),
+        rgb(26, 144, 255),
+        rgb(184, 24, 233)
+    );
+    filter: blur(2px);
+    }
+
+
+#nosediv::before{
+    width: 18%;
+    height: 37%;
+    content:"";
+    top: 11vh;
+    left: 58.8vh;
+    position: absolute;
+    border-radius: 5px;
+    background: conic-gradient(
+        rgb(246, 26, 111),
+        rgb(255, 82, 13),
+        rgb(253, 187, 6),
+        rgb(53, 235, 36),
+        rgb(26, 144, 255),
+        rgb(184, 24, 233)
+    );
+    filter: blur(2px);
+}
+#cupdiv::before{
+    width: 18%;
+    height: 37%;
+    content:"";
+    top: 11vh;
+    left: 108.8vh;
+    position: absolute;
+    border-radius: 5px;
+    background: conic-gradient(
+        rgb(246, 26, 111),
+        rgb(255, 82, 13),
+        rgb(253, 187, 6),
+        rgb(53, 235, 36),
+        rgb(26, 144, 255),
+        rgb(184, 24, 233)
+    );
+    filter: blur(2px);
+}
+#shendiv::before{
+    width: 18%;
+    height: 37%;
+    content:"";
+    top: 11vh;
+    left: 158.7vh;
+    position: absolute;
+    border-radius: 5px;
+    background: conic-gradient(
+        rgb(246, 26, 111),
+        rgb(255, 82, 13),
+        rgb(253, 187, 6),
+        rgb(53, 235, 36),
+        rgb(26, 144, 255),
+        rgb(184, 24, 233)
+    );
+    filter: blur(2px);
 }
 #nose{
 position: absolute;
 width: 35vh;
-left: 55vh;
+left: 60vh;
+top: 12vh;
+border-radius: 5px;
 }
 #cup{
 position: absolute;
 width: 35vh;
 height: 35vh;
 left: 110vh;
+top: 12vh;
+border-radius: 5px;
 }
 #shen{
 position: absolute;
 width: 35vh;
 left: 160vh;
+top: 12vh;
+border-radius: 5px;
 }
 #idol{
 font-size: 30px;
 position: absolute;
-top: 40vh;
-left: 13vh;
+top: 45vh;
+left: 23vh;
 }
 #idol2{
 font-size: 30px;
 position: absolute;
-top: 40vh;
-left: 58.5vh;
+top: 45vh;
+left: 63.3vh;
 }
 #idol3{
 font-size: 30px;
 position: absolute;
-top: 40vh;
+top: 45vh;
 left: 119vh;
 }
 #idol4{
 font-size: 30px;
 position: absolute;
-top: 40vh;
+top: 45vh;
 left: 169vh;
 }
 body{
-margin: 0;
+border: 0;
+background-image: linear-gradient(to right, rgb(67, 227, 255), rgb(61, 134, 250),rgb(227, 67, 255));
 }
 #vs{
 position: absolute;
 font-size: 30px;
-top: 40vh;
-left: 39vh;
+top: 45vh;
+left: 50vh;
 }
 #vs2{
-    position: absolute;
-    font-size: 30px;
-    top: 40vh;
-    left: 100vh;
-    }
-    #vs3{
-        position: absolute;
-        font-size: 30px;
-        top: 40vh;
-        left: 150vh;
-        }
+position: absolute;
+font-size: 30px;
+top: 45vh;
+left: 100vh;
+}
+#vs3{
+position: absolute;
+font-size: 30px;
+top: 45vh;
+left: 150vh;
+}
+h1{
+position: absolute;
+left: 50%;
+transform: translate(-50%);
+}
