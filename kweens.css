@@ -1,0 +1,65 @@
+#jia{
+position: absolute;
+width: 35vh;
+}
+#nose{
+position: absolute;
+width: 35vh;
+left: 55vh;
+}
+#cup{
+position: absolute;
+width: 35vh;
+height: 35vh;
+left: 110vh;
+}
+#shen{
+position: absolute;
+width: 35vh;
+left: 160vh;
+}
+#idol{
+font-size: 30px;
+position: absolute;
+top: 40vh;
+left: 13vh;
+}
+#idol2{
+font-size: 30px;
+position: absolute;
+top: 40vh;
+left: 58.5vh;
+}
+#idol3{
+font-size: 30px;
+position: absolute;
+top: 40vh;
+left: 119vh;
+}
+#idol4{
+font-size: 30px;
+position: absolute;
+top: 40vh;
+left: 169vh;
+}
+body{
+margin: 0;
+}
+#vs{
+position: absolute;
+font-size: 30px;
+top: 40vh;
+left: 39vh;
+}
+#vs2{
+    position: absolute;
+    font-size: 30px;
+    top: 40vh;
+    left: 100vh;
+    }
+    #vs3{
+        position: absolute;
+        font-size: 30px;
+        top: 40vh;
+        left: 150vh;
+        }
